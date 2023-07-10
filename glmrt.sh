@@ -5,5 +5,5 @@ wget https://ssd.mathworks.com/supportfiles/downloads/R2022a/Release/6/deploymen
 unzip MATLAB_Runtime_R2022a_Update_6_glnxa64.zip
 ./install -agreeToLicense yes -destinationFolder /home/jovyan/mlrt -mode silent
 cd ..
-rm mlrt_setup
+rm -r mlrt_setup
  
